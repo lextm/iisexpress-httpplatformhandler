@@ -2,6 +2,7 @@
 
 > * Learn how to install CORS module from [this sibling project](https://github.com/lextm/iisexpress-cors).
 > * Learn how to patch ASP.NET Core module on Windows 11 ARM64 from [this sibling project](https://github.com/lextm/ancm-arm64).
+> * Learn how to use IIS Express with Visual Studio Code from [this sibling project](https://github.com/jexuswebserver/vscode-iis).
 
 ## Install
 

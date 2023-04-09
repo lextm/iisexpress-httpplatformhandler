@@ -24,8 +24,6 @@
    .\install.ps1 -msiFile httpPlatformHandler_amd64.msi
    ```
 
-   > If `-msiFile` is omitted, the install script tries to copy the files from local IIS installation folders. Make sure you have installed HttpPlatformHandler on IIS, or errors are expected.
-
 The configuration on IIS Express is exactly the same as IIS, and just make sure you are editing the right config files,
 
 https://learn.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference

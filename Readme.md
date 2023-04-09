@@ -1,7 +1,7 @@
 # PowerShell Scripts to Install/Uninstall HttpPlatformHandler for IIS Express
 
-> You can learn how to install CORS module from [this sibling project](https://github.com/lextm/iisexpress-cors).
-> You can learn how to patch ASP.NET Core module on Windows 11 ARM64 from [this sibling project](https://github.com/lextm/ancm-arm64).
+> * Learn how to install CORS module from [this sibling project](https://github.com/lextm/iisexpress-cors).
+> * Learn how to patch ASP.NET Core module on Windows 11 ARM64 from [this sibling project](https://github.com/lextm/ancm-arm64).
 
 ## Install
 

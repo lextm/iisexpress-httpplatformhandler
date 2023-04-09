@@ -24,7 +24,9 @@
    .\install.ps1 -msiFile httpPlatformHandler_amd64.msi
    ```
 
-The configuration is exactly the same as IIS, and just make sure you are editing the right files,
+   > If `-msiFile` is omitted, the install script tries to copy the files from local IIS installation folders. Make sure you have installed HttpPlatformHandler on IIS, or errors are expected.
+
+The configuration on IIS Express is exactly the same as IIS, and just make sure you are editing the right config files,
 
 https://learn.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference
 
@@ -34,6 +36,6 @@ https://learn.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandl
 ## Notes
 
 * The current release only supports Windows x64 machines.
-* The scripts must be run as administrator.
+* The scripts must be run as administrator, because they need to copy/remove files to/from Program Files folder.
 * **`install.ps1` and `uninstall.ps1` only manipulate the default IIS Express config file in current user's My Documents folder.**
 * **If a custom config file needs to be modified, run the PowerShell scripts with arguments (like `install.ps1 -fileName custom.config`).**

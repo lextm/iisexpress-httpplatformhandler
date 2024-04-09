@@ -4,6 +4,12 @@
 > * Learn how to patch ASP.NET Core module on Windows 11 ARM64 from [this sibling project](https://github.com/lextm/ancm-arm64).
 > * Learn how to use IIS Express with Visual Studio Code from [this sibling project](https://github.com/jexuswebserver/vscode-iis).
 
+## The Open Source HttpPlatformHandler for IIS Express
+
+LeXtudio Inc. started to ship its own version of HttpPlatformHandler, so you might use its IIS Express installers directly.
+
+To learn more, you can start with [this post](https://docs.lextudio.com/blog/httpplatformhandler-v2/).
+
 ## Install
 
 1. Install [IIS Express](https://learn.microsoft.com/iis/extensions/introduction-to-iis-express/iis-express-overview#installing-iis-express).

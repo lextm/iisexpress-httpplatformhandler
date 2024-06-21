@@ -8,7 +8,9 @@
 
 LeXtudio Inc. started to ship its own version of HttpPlatformHandler, so you might use its IIS Express installers directly.
 
-To learn more, you can start with [this post](https://docs.lextudio.com/blog/httpplatformhandler-v2/).
+To learn more, you can leave this page and jump to [this post](https://docs.lextudio.com/blog/httpplatformhandler-v2/).
+
+Only if you prefer to use Microsoft's HttpPlatformHandler v1.2 you can scroll down.
 
 ## Install
 
